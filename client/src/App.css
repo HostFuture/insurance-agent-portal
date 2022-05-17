@@ -1,0 +1,71 @@
+.login-side-bar::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F0F3F5;
+  background-image: url("media/car-background.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.login-side-bar .login-side-text {
+  left: 2vh;
+  bottom: 4vh;
+  position: absolute;
+  line-height: 6vh;
+}
+
+.login-side-bar .login-side-text span {
+  font-weight: 900;
+}
+
+.login-side-form {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.login-side-form .logo {
+  padding-left: 15%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.login-side-form .logo img {
+  width: 35%;
+  height: auto;
+}
+
+.login-side-form .login-form-section {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.app-header {
+  position: "fixed";
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.app-header .logo {
+  width: "20vh" !important;
+  height: "auto";
+}
+
+.header-menu-items {
+  display: flex !important;
+  align-items: center !important;
+}
